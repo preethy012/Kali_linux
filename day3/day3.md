@@ -42,7 +42,7 @@ password requisite pam_pwquality.so retry=3 minlen=12
 Disable root SSH login
 
 sudo nano /etc/ssh/sshd_config
-# Set: PermitRootLogin no
+Set: PermitRootLogin no
 sudo systemctl restart sshd
 
 Update the system
